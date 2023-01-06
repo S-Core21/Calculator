@@ -10,9 +10,12 @@ body{
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    height: 50vw;
+    /* height: 50vw; */
     overflow-y: hidden;
     background-color: rgb(39, 38, 38);
+}
+header{
+    margin-top: 3rem;
 }
 h1{
     color: azure;
