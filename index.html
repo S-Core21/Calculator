@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        <h1>
+            Rare Calculator
+        </h1>
+    </header>
+    <main>
+        <div>
+    <input type="text" id="input">
+</div>
+<div>
+    <button onclick="buttonNo (1)">1</button>
+    <button onclick="buttonNo (2)">2</button>
+    <button onclick="buttonNo (3)">3</button>
+    <button onclick="buttonNo (4)">4</button>
+    <button id="del">Del</button>
+</div>
+    <div>
+        <button onclick="buttonNo (5)">5</button>
+        <button onclick="buttonNo (6)">6</button>
+        <button onclick="buttonNo (7)">7</button>
+        <button onclick="buttonNo (8)">8</button>
+        <button id="clear">Clr</button>
+    </div>
+   <div>
+    <button onclick="buttonNo (9)">9</button>
+    <button onclick="buttonNo (0)">0</button>
+    <button onclick="buttonNo ('.')">.</button>
+    <button id="plus">+</button>
+    <button id="sqaure" onclick="square1()">Sqr</button>
+   </div>
+    
+   <div>
+    <button id="minus">-</button>
+    <button id="multiply">x</button>
+    <button id="divide">/</button>
+    <button id="equal" >=</button>
+    <button id="sqaure" onclick="squareroot()">Sqrt</button>
+   </div>
+    
+   <!-- <div>
+</div> -->
+<!-- <button id="percent" onclick="percent()">%</button> -->
+   
+    </main>
+</body>
+</html>
+<script src="script.js"></script>
