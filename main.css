@@ -75,10 +75,18 @@ button:hover{
         margin-top: 3rem;
     }
     main{
-        width: 80%;
+        width: 95%;
         margin-top: 2rem;
+        margin-inline: 1rem;
     }
     div{
         gap: 1rem;
+    }
+    input{
+        width: 90%;
+    }
+    button{
+        font-size: 28px;
+        padding: 5px 10px;
     }
 }
